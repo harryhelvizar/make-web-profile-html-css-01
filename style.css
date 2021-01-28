@@ -47,7 +47,8 @@ main {
 }
 
 .circle1,
-.circle2 {
+.circle2,
+.circle3 {
     background: white;
     background: linear-gradient(to right bottom,
             rgba(255, 255, 255, 0.8),
@@ -68,6 +69,11 @@ main {
     /* background-color: yellow; */
     bottom: 4%;
     left: 7%;
+}
+
+.circle3{
+    bottom: -10%;
+    right: 25%;
 }
 
 .dashboard {
