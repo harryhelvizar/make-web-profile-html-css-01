@@ -83,6 +83,10 @@ main {
     border-radius: 2rem;
 }
 
+.user img{
+    -webkit-filter: drop-shadow(3px 3px 9px rgba(0, 0, 0, 0.2));
+}
+
 .link {
     display: flex;
     margin: 2rem 0rem;
@@ -103,15 +107,20 @@ main {
     border-radius: 2rem;
     color: white;
     padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 .card img {
-    width: 11%;
+    height: 100px;
 }
 
 .register h2 {
     color: white;
     font-weight: 600;
+}
+
+.register h2:hover{
+    color: #426696;
 }
 
 /* contents */
@@ -135,4 +144,29 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    background: linear-gradient(to left top,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.3));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 1rem;
+    box-shadow: 6px 6px 20px rgba(112, 112, 112, 0.212);
+}
+
+.card-info{
+    padding-left: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #426696;
+}
+
+a:hover{
+    color: rgb(32, 29, 29);
+    font-weight: bold;
 }
